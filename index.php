@@ -55,7 +55,7 @@
     <div>
         <?php foreach($users as $user) {?>
             <div class="utente">
-                <img src="<?php echo $user->photo ?>" alt="mia">
+                <img src="<?php echo $user->photo ?>" alt="<?php echo $user->name ?>">
                 <p><strong>Nome: </strong><?php echo $user->name ?></p>
                 <p><strong>Cognome: </strong><?php echo $user->lastname ?></p>
                 <p><strong>Email: </strong><?php echo $user->email ?></p>
