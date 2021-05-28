@@ -1,0 +1,12 @@
+Descrizione:
+Crea un diagramma ( un file txt con nome tabella e colonne) per una tabella di db che rappresenti gli Users di un blog.
+Poi crea una classe User che rappresenti quella tabella e usala per stampare in pagina i dati di alcuni Users.
+
+User
+
+ID
+Nome
+Cognome
+Email
+Password
+Photo
